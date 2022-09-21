@@ -57,12 +57,12 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [oK5hU6HsKG1KgUH-tljm2hQqCNkY]
+  USERS: [
     {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oK5hU6HsKG1KgUH-tljm2hQqCNkY",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "h7aM4VSqshhTzKqnscL935XVzYVugNIOHE8uwVWnXZw",
       // 所在省份
